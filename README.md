@@ -8,10 +8,145 @@ Arithmetic operators are used to perform common mathematical operations.
 Operator	        Name                	         Description         	                 Example	
 +             	Addition	                    Adds together two values                       	x + y	
 -	             Subtraction                  	Subtracts one value from another	              x - y	
-*            	Multiplication	              Multiplies two values	                          x * y	
+*            	Multiplication	                 Multiplies two values	                          x * y	
 /	            Division	                    Divides one value by another	                  x / y	
 %	             Modulus	                      Returns the division remainder	                x % y	
 ++	          Increment	                  Increases the value of a variable by 1	         ++x	
 --	         Decrement	                  Decreases the value of a variable by 1	         --x
 
 
+
+// C++ program for assignment operators
+
+#include <iostream>
+using namespace std;
+  
+int main() 
+{ 
+  
+    // Assigning value 10 to a 
+    // using "=" operator 
+    int a = 10; 
+    cout << "Value of a is "<<a<<"\n"; 
+  
+    // Assigning value by adding 10 to a 
+    // using "+=" operator 
+    a += 10; 
+    cout << "Value of a is "<<a<<"\n"; 
+  
+    // Assigning value by subtracting 10 from a 
+    // using "-=" operator 
+    a -= 10; 
+    cout << "Value of a is "<<a<<"\n"; 
+  
+    // Assigning value by multiplying 10 to a 
+    // using "*=" operator 
+    a *= 10; 
+    cout << "Value of a is "<<a<<"\n"; 
+  
+    return 0; 
+}
+  
+  
+  
+  //Comparison Operators
+Comparison operators are used to compare two values.
+  //greater than operator 
+  #include <iostream>
+using namespace std;
+
+int main() {
+  int x = 5;
+  int y = 3;
+  cout << (x > y); // returns 1 (true) because 5 is greater than 3
+  return 0;
+}
+                    //lesser than operator
+  #include <iostream>
+using namespace std;
+
+int main() {
+  int x = 5;
+  int y = 3;
+  cout << (x < y); // returns 0(false) because 5 is greater than 3
+  return 0;
+}
+                  //greater than =
+#include <iostream>
+using namespace std;
+
+int main() {
+  int x = 5;
+  int y = 3;
+  cout << (x >= y); // returns 1 (true) because 5 is greater than 3
+  return 0;
+}
+  // lesser than =
+#include <iostream>
+using namespace std;
+
+int main() {
+  int x = 5;
+  int y = 3;
+  cout << (x <= y); // returns 0(false) because 5 is greater than 3
+  return 0;
+}
+                  //equal to
+ #include <iostream>
+using namespace std;
+
+int main() {
+  int x = 5;
+  int y = 3;
+  cout << (x== y); // returns 0 (false) because 5 is not equal to  3
+  return 0;
+}
+
+//not equal to 
+  #include <iostream>
+using namespace std;
+
+int main() {
+  int x = 5;
+  int y = 3;
+  cout << (x != y); // returns 1 (true) because 5 is not equal to   3
+  return 0;
+}
+
+  
+  
+  //logical operators
+  //and 
+  #include <iostream>
+using namespace std;
+
+int main() {
+  int x = 5;
+  int y = 3;
+  cout << (x > 3 && x < 10); // returns true (1) because 5 is greater than 3 AND 5 is less than 10
+  return 0;
+}
+                            //or
+#include <iostream>
+using namespace std;
+
+int main() {
+  int x = 5;
+  int y = 3;
+  cout << (x > 3 || x < 4); // returns true (1) because one of the conditions are true (5 is greater than 3, but 5 is not less than 4)
+  return 0;
+}
+//not
+ #include <iostream>
+using namespace std;
+
+int main() {
+  int x = 5;
+  int y = 3;
+  cout << (!(x > 3 && x < 10)); // returns false (0) because ! (not) is used to reverse the result
+  return 0;
+}
+
+                               <<< THE END>>>>
+<<< SITA MAHALAKSHMI BHARATULA ::::::LETS UPGRADE  ::::::DAY 03:::C++ BOOTCAMP :::::assignment :::with self notes >>>
+  <<<<thankuh>>>
